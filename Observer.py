@@ -4,4 +4,4 @@ class Observer:
         pass
 
     def notify(self,message):
-        print(message)
+        print(message) 
