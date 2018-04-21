@@ -25,7 +25,7 @@ SECRET_KEY = 'blo5)kzw8hy&iy*09n1y2fv3^yj^9q*^&3u%ytnk@@wcdy==!p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS =['192.168.0.6','localhost','127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'alkanza',
 ]
 
 MIDDLEWARE = [
