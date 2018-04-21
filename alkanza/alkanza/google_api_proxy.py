@@ -1,5 +1,4 @@
 import requests
-import numpy
 from . import key as KEY
 
 

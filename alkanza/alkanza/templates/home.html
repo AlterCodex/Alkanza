@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
+    {% if errorMessage != None %}
+    <p style="color: red">{{ errorMessage }}</p><br>
+    {% endif %}
     <h2>Search place</h2>
     <form method="post" class='seachrForm'>
         {% csrf_token %}

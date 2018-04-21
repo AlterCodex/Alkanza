@@ -4,7 +4,13 @@
 		<div class="content container">
 			<div class="row">
 				<div class="content_colum">
-                    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:{{ place_uid }}&key={{key}}" allowfullscreen></iframe>
+                    <iframe width="600" height="450" frameborder="0"
+                    style="border:0"
+                     src="https://www.google.com/maps/embed/v1/place?q=place_id:{{ place_uid }}&key={{key}}" allowfullscreen>
+                    </iframe>
+                    <P>Unbalanced Distance for: {{key_word}} is {{unbalanced_distance}}</P>
+                    <a href="/">home</a>
+
                 </div>
             </div>
         </div>
